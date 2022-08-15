@@ -1,0 +1,7 @@
+print('-' * 13)
+print('ALUGAR CARRO')
+print('-' * 13)
+km = int(input('Quilometro percorrido: '))
+d  = int(input('Dias alugados: '))
+p = ( d * 60) + (0.15 * km)
+print('Seu carro percorreu {}km por {} dias, portanto ira pagar um total de R${:.2f} pelos dia usado'.format(km, d, p))
